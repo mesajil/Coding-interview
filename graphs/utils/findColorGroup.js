@@ -9,7 +9,12 @@ function hasCommonCharacter(str1, str2) {
     return false;
 }
 
+function hasSameLength (str1, str2) {
+    return str1.length === str2.length
+}
 
 module.exports = {
-    hasCommonCharacter
+    hasCommonCharacter,
+    hasSameLength,
 };
+
